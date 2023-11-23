@@ -234,39 +234,41 @@
         </section>
         <section class="pdf container">
           <div class="pdf__wrapper">
-            <div class="pdf__info">
-              <p class="pdf__info-text">Подробно</p>
-              <h2 class="pdf__info-title">
-                Вся информация о проекте — в презентации
-              </h2>
-              <ul class="pdf__list">
-                <li class="pdf__item">25 слайдов подробной информации</li>
-                <li class="pdf__item">
-                  Инфраструктура, благоустройство, расположение
-                </li>
-                <li class="pdf__item">Инжененрия, концепция и тд.</li>
-              </ul>
-              <a href="./assets/files/Home.pdf" download class="btn"
+            <div class="pdf__content">
+              <div class="pdf__info">
+                <p class="pdf__info-text">Подробно</p>
+                <h2 class="pdf__info-title">
+                  Вся информация о проекте — в презентации
+                </h2>
+                <ul class="pdf__list">
+                  <li class="pdf__item">25 слайдов подробной информации</li>
+                  <li class="pdf__item">
+                    Инфраструктура, благоустройство, расположение
+                  </li>
+                  <li class="pdf__item">Инжененрия, концепция и тд.</li>
+                </ul>
+              </div>
+              <div class="pdf__picture">
+                <picture class="pdf__illustration">
+                  <source
+                    type="image/webp"
+                    srcset="
+                      ./assets/images/pdf@1x.webp 1x,
+                      ./assets/images/pdf@2x.webp 2x
+                    "
+                  />
+                  <img
+                    class="pdf__images"
+                    src="./assets/images/pdf@1x.png"
+                    srcset="./assets/images/pdf@2x.png 2x"
+                    alt="pdf"
+                  />
+                </picture>
+              </div>
+              
+            </div><a href="./assets/files/Home.pdf" download class="btn"
                 >Скачать презентацию</a
               >
-            </div>
-            <div class="pdf__picture">
-              <picture class="pdf__illustration">
-                <source
-                  type="image/webp"
-                  srcset="
-                    ./assets/images/pdf@1x.webp 1x,
-                    ./assets/images/pdf@2x.webp 2x
-                  "
-                />
-                <img
-                  class="pdf__images"
-                  src="./assets/images/pdf@1x.png"
-                  srcset="./assets/images/pdf@2x.png 2x"
-                  alt="pdf"
-                />
-              </picture>
-            </div>
           </div>
         </section>
       </main>
